@@ -1,0 +1,12 @@
+[project]
+name = "chromadb-document-embedder"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb==1.0.7",
+    "chromadb-client==1.0.7",
+    "langchain-community==0.3.22",
+    "langchain-openai==0.3.14",
+    "pypdf==5.4.0",
+]
